@@ -61,10 +61,6 @@ public class RegistrationPage extends Page{
         chooseSeptemberFromDropdown.click();
     }
 
-    public void goOnRegistrationPage() {
-        webDriver.get("https://login.yahoo.com/account/create");
-    }
-
     public boolean isValidatorAppear() {
         return validatorError.isDisplayed();
     }

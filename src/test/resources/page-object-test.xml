@@ -5,15 +5,19 @@
 	<parameter name="login" value="kovalchukvasyl@yahoo.com"/>
 	<parameter name="password" value="Emisare1"/>
 
-        <test name="DemoTests">
-            <classes>
-                <class name="loginTests.LoginTestSuite"/>
-                <class name="homepageTests.HomePageTestSuite"/>
-                <class name="mailboxTests.MailboxTestSuite"/>
-                <class name="registrationTests.RegistrationTestSuite"/>
-                <class name="homepageTests.DataProviderTest"/>
-            </classes>
-        </test>
+    <test name="DemoTests" group-by-instances="false">
+        <classes>
+            <class name="loginTests.LoginTestSuite"/>
+            <class name="homepageTests.HomePageTestSuite"/>
+            <class name="mailboxTests.MailboxTestSuite"/>
+            <class name="registrationTests.RegistrationTestSuite"/>
+            <class name="homepageTests.DataProviderTest"/>
+        </classes>
+    </test>
 
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
 
-    </suite>
+</suite>

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PageObjectTest" duration-ms="187698" started-at="2017-06-24T22:00:19Z" finished-at="2017-06-24T22:03:26Z">
+    <groups>
+    </groups>
+    <test name="DemoTests" duration-ms="187698" started-at="2017-06-24T22:00:19Z" finished-at="2017-06-24T22:03:26Z">
+      <class name="homepageTests.DataProviderTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:homepageTests.DataProviderTest@3c0ecd4b]" name="setup" is-config="true" duration-ms="38952" started-at="2017-06-25T01:01:39Z" finished-at="2017-06-25T01:02:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TestNameTextfield(java.lang.String)[pri:0, instance:homepageTests.DataProviderTest@3c0ecd4b]" name="TestNameTextfield" duration-ms="4607" started-at="2017-06-25T01:02:18Z" data-provider="getUser" finished-at="2017-06-25T01:02:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestNameTextfield -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:homepageTests.DataProviderTest@3c0ecd4b]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2017-06-25T01:02:22Z" finished-at="2017-06-25T01:02:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestNameTextfield status=SUCCESS method=DataProviderTest.TestNameTextfield(java.lang.String)[pri:0, instance:homepageTests.DataProviderTest@3c0ecd4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:homepageTests.DataProviderTest@3c0ecd4b]" name="setup" is-config="true" duration-ms="43769" started-at="2017-06-25T01:02:22Z" finished-at="2017-06-25T01:03:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TestNameTextfield(java.lang.String)[pri:0, instance:homepageTests.DataProviderTest@3c0ecd4b]" name="TestNameTextfield" duration-ms="4662" started-at="2017-06-25T01:03:06Z" data-provider="getUser" finished-at="2017-06-25T01:03:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[B]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestNameTextfield -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:homepageTests.DataProviderTest@3c0ecd4b]" name="setup" is-config="true" duration-ms="3116" started-at="2017-06-25T01:03:11Z" finished-at="2017-06-25T01:03:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:homepageTests.DataProviderTest@3c0ecd4b]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2017-06-25T01:03:11Z" finished-at="2017-06-25T01:03:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestNameTextfield status=SUCCESS method=DataProviderTest.TestNameTextfield(java.lang.String)[pri:0, instance:homepageTests.DataProviderTest@3c0ecd4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="TestNameTextfield(java.lang.String)[pri:0, instance:homepageTests.DataProviderTest@3c0ecd4b]" name="TestNameTextfield" duration-ms="4334" started-at="2017-06-25T01:03:14Z" data-provider="getUser" finished-at="2017-06-25T01:03:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestNameTextfield -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:homepageTests.DataProviderTest@3c0ecd4b]" name="setup" is-config="true" duration-ms="2925" started-at="2017-06-25T01:03:18Z" finished-at="2017-06-25T01:03:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:homepageTests.DataProviderTest@3c0ecd4b]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2017-06-25T01:03:18Z" finished-at="2017-06-25T01:03:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestNameTextfield status=SUCCESS method=DataProviderTest.TestNameTextfield(java.lang.String)[pri:0, instance:homepageTests.DataProviderTest@3c0ecd4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="TestNameTextfield(java.lang.String)[pri:0, instance:homepageTests.DataProviderTest@3c0ecd4b]" name="TestNameTextfield" duration-ms="5046" started-at="2017-06-25T01:03:21Z" data-provider="getUser" finished-at="2017-06-25T01:03:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[D]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestNameTextfield -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:homepageTests.DataProviderTest@3c0ecd4b]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2017-06-25T01:03:26Z" finished-at="2017-06-25T01:03:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestNameTextfield status=SUCCESS method=DataProviderTest.TestNameTextfield(java.lang.String)[pri:0, instance:homepageTests.DataProviderTest@3c0ecd4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- homepageTests.DataProviderTest -->
+      <class name="registrationTests.RegistrationTestSuite">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:registrationTests.RegistrationTestSuite@598067a5]" name="setup" is-config="true" duration-ms="3769" started-at="2017-06-25T01:01:29Z" finished-at="2017-06-25T01:01:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TestRegistrationValidators()[pri:1, instance:registrationTests.RegistrationTestSuite@598067a5]" name="TestRegistrationValidators" duration-ms="1475" started-at="2017-06-25T01:01:33Z" finished-at="2017-06-25T01:01:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestRegistrationValidators -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:registrationTests.RegistrationTestSuite@598067a5]" name="setup" is-config="true" duration-ms="1376" started-at="2017-06-25T01:01:34Z" finished-at="2017-06-25T01:01:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:registrationTests.RegistrationTestSuite@598067a5]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2017-06-25T01:01:34Z" finished-at="2017-06-25T01:01:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestRegistrationValidators status=SUCCESS method=RegistrationTestSuite.TestRegistrationValidators()[pri:1, instance:registrationTests.RegistrationTestSuite@598067a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="TestRegistration()[pri:2, instance:registrationTests.RegistrationTestSuite@598067a5]" name="TestRegistration" duration-ms="2994" started-at="2017-06-25T01:01:36Z" finished-at="2017-06-25T01:01:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestRegistration -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:registrationTests.RegistrationTestSuite@598067a5]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2017-06-25T01:01:39Z" finished-at="2017-06-25T01:01:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestRegistration status=SUCCESS method=RegistrationTestSuite.TestRegistration()[pri:2, instance:registrationTests.RegistrationTestSuite@598067a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- registrationTests.RegistrationTestSuite -->
+      <class name="homepageTests.HomePageTestSuite">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:homepageTests.HomePageTestSuite@57fffcd7]" name="setup" is-config="true" duration-ms="2668" started-at="2017-06-25T01:00:38Z" finished-at="2017-06-25T01:00:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TestLogoPresence()[pri:0, instance:homepageTests.HomePageTestSuite@57fffcd7]" name="TestLogoPresence" duration-ms="244" started-at="2017-06-25T01:00:40Z" finished-at="2017-06-25T01:00:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogoPresence -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:homepageTests.HomePageTestSuite@57fffcd7]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2017-06-25T01:00:41Z" finished-at="2017-06-25T01:00:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestLogoPresence status=SUCCESS method=HomePageTestSuite.TestLogoPresence()[pri:0, instance:homepageTests.HomePageTestSuite@57fffcd7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- homepageTests.HomePageTestSuite -->
+      <class name="mailboxTests.MailboxTestSuite">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:mailboxTests.MailboxTestSuite@31ef45e3]" name="setup" is-config="true" duration-ms="3318" started-at="2017-06-25T01:00:41Z" finished-at="2017-06-25T01:00:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="MailCheckerTest(java.lang.String, java.lang.String)[pri:0, instance:mailboxTests.MailboxTestSuite@31ef45e3]" name="MailCheckerTest" duration-ms="45345" started-at="2017-06-25T01:00:44Z" finished-at="2017-06-25T01:01:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kovalchukvasyl@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Emisare1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MailCheckerTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:mailboxTests.MailboxTestSuite@31ef45e3]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2017-06-25T01:01:29Z" finished-at="2017-06-25T01:01:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MailCheckerTest status=SUCCESS method=MailboxTestSuite.MailCheckerTest(java.lang.String, java.lang.String)[pri:0, instance:mailboxTests.MailboxTestSuite@31ef45e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- mailboxTests.MailboxTestSuite -->
+      <class name="loginTests.LoginTestSuite">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:loginTests.LoginTestSuite@3abbfa04]" name="setup" is-config="true" duration-ms="9320" started-at="2017-06-25T01:00:19Z" finished-at="2017-06-25T01:00:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CorrectLoginTest(java.lang.String)[pri:0, instance:loginTests.LoginTestSuite@3abbfa04]" name="CorrectLoginTest" duration-ms="5339" started-at="2017-06-25T01:00:28Z" finished-at="2017-06-25T01:00:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kovalchukvasyl@yahoo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CorrectLoginTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:loginTests.LoginTestSuite@3abbfa04]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2017-06-25T01:00:33Z" finished-at="2017-06-25T01:00:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CorrectLoginTest status=SUCCESS method=LoginTestSuite.CorrectLoginTest(java.lang.String)[pri:0, instance:loginTests.LoginTestSuite@3abbfa04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:loginTests.LoginTestSuite@3abbfa04]" name="setup" is-config="true" duration-ms="2984" started-at="2017-06-25T01:00:33Z" finished-at="2017-06-25T01:00:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="UnexistingLoginTest()[pri:0, instance:loginTests.LoginTestSuite@3abbfa04]" name="UnexistingLoginTest" duration-ms="1432" started-at="2017-06-25T01:00:36Z" depends-on-methods="loginTests.LoginTestSuite.CorrectLoginTest" finished-at="2017-06-25T01:00:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnexistingLoginTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:loginTests.LoginTestSuite@3abbfa04]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2017-06-25T01:00:38Z" finished-at="2017-06-25T01:00:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UnexistingLoginTest status=SUCCESS method=LoginTestSuite.UnexistingLoginTest()[pri:0, instance:loginTests.LoginTestSuite@3abbfa04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- loginTests.LoginTestSuite -->
+    </test> <!-- DemoTests -->
+  </suite> <!-- PageObjectTest -->
+</testng-results>

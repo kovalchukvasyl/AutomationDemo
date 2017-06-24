@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DemoTests"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="18,649">
+  <properties />
+  
+  
+            <testcase name="TestNameTextfield" time="4,334" classname="homepageTests.DataProviderTest" />
+                <testcase name="TestNameTextfield" time="5,046" classname="homepageTests.DataProviderTest" />
+                <testcase name="TestNameTextfield" time="4,607" classname="homepageTests.DataProviderTest" />
+                <testcase name="TestNameTextfield" time="4,662" classname="homepageTests.DataProviderTest" />
+      
+</testsuite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [PageObjectTest]" data-provider-thread-count="2">
+  <parameter name="password" value="Emisare1"/>
+  <parameter name="browserName" value="firefox"/>
+  <parameter name="login" value="kovalchukvasyl@yahoo.com"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="DemoTests">
+    <classes>
+      <class name="loginTests.LoginTestSuite"/>
+      <class name="homepageTests.HomePageTestSuite"/>
+      <class name="mailboxTests.MailboxTestSuite"/>
+      <class name="registrationTests.RegistrationTestSuite"/>
+      <class name="homepageTests.DataProviderTest"/>
+    </classes>
+  </test> <!-- DemoTests -->
+</suite> <!-- Failed suite [PageObjectTest] -->

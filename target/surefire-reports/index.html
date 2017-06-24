@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-PageObjectTest">
+              <span class="suite-name border-passed">PageObjectTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-PageObjectTest">
+                    <span>C:\Users\Vasyl\IdeaProjects\AutomationDemo\src\test\resources\page-object-test.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-PageObjectTest">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-PageObjectTest">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-PageObjectTest">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-PageObjectTest">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-PageObjectTest">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-PageObjectTest">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-PageObjectTest" class="hide-methods passed suite-PageObjectTest"> (hide)</a> <!-- hide-methods passed suite-PageObjectTest -->
+                      <a href="#" panel-name="suite-PageObjectTest" class="show-methods passed suite-PageObjectTest"> (show)</a> <!-- show-methods passed suite-PageObjectTest -->
+                    </span>
+                    <div class="method-list-content passed suite-PageObjectTest">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PageObjectTest" title="loginTests.LoginTestSuite" hash-for-method="CorrectLoginTest(kovalchukvasyl@yahoo.com)">CorrectLoginTest(kovalchukvasyl@yahoo.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PageObjectTest" title="mailboxTests.MailboxTestSuite" hash-for-method="MailCheckerTest(kovalchukvasyl@yahoo.com, Emisare1)">MailCheckerTest(kovalchukvasyl@yahoo.com, Emisare1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PageObjectTest" title="homepageTests.HomePageTestSuite" hash-for-method="TestLogoPresence">TestLogoPresence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PageObjectTest" title="homepageTests.DataProviderTest" hash-for-method="TestNameTextfield(C)">TestNameTextfield(C)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PageObjectTest" title="homepageTests.DataProviderTest" hash-for-method="TestNameTextfield(D)">TestNameTextfield(D)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PageObjectTest" title="homepageTests.DataProviderTest" hash-for-method="TestNameTextfield(A)">TestNameTextfield(A)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PageObjectTest" title="homepageTests.DataProviderTest" hash-for-method="TestNameTextfield(B)">TestNameTextfield(B)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PageObjectTest" title="registrationTests.RegistrationTestSuite" hash-for-method="TestRegistration">TestRegistration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PageObjectTest" title="registrationTests.RegistrationTestSuite" hash-for-method="TestRegistrationValidators">TestRegistrationValidators</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PageObjectTest" title="loginTests.LoginTestSuite" hash-for-method="UnexistingLoginTest">UnexistingLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-PageObjectTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-PageObjectTest" class="panel PageObjectTest">
+          <div class="suite-PageObjectTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mailboxTests.MailboxTestSuite</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MailCheckerTest(kovalchukvasyl@yahoo.com, Emisare1)">
+                  </a> <!-- MailCheckerTest(kovalchukvasyl@yahoo.com, Emisare1) -->
+                  <span class="method-name">MailCheckerTest</span>
+                  <span class="parameters">(kovalchukvasyl@yahoo.com, Emisare1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PageObjectTest-class-passed -->
+          <div class="suite-PageObjectTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">homepageTests.HomePageTestSuite</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestLogoPresence">
+                  </a> <!-- TestLogoPresence -->
+                  <span class="method-name">TestLogoPresence</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PageObjectTest-class-passed -->
+          <div class="suite-PageObjectTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">homepageTests.DataProviderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestNameTextfield(C)">
+                  </a> <!-- TestNameTextfield(C) -->
+                  <span class="method-name">TestNameTextfield</span>
+                  <span class="parameters">(C)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestNameTextfield(D)">
+                  </a> <!-- TestNameTextfield(D) -->
+                  <span class="method-name">TestNameTextfield</span>
+                  <span class="parameters">(D)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestNameTextfield(A)">
+                  </a> <!-- TestNameTextfield(A) -->
+                  <span class="method-name">TestNameTextfield</span>
+                  <span class="parameters">(A)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestNameTextfield(B)">
+                  </a> <!-- TestNameTextfield(B) -->
+                  <span class="method-name">TestNameTextfield</span>
+                  <span class="parameters">(B)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PageObjectTest-class-passed -->
+          <div class="suite-PageObjectTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">loginTests.LoginTestSuite</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CorrectLoginTest(kovalchukvasyl@yahoo.com)">
+                  </a> <!-- CorrectLoginTest(kovalchukvasyl@yahoo.com) -->
+                  <span class="method-name">CorrectLoginTest</span>
+                  <span class="parameters">(kovalchukvasyl@yahoo.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UnexistingLoginTest">
+                  </a> <!-- UnexistingLoginTest -->
+                  <span class="method-name">UnexistingLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PageObjectTest-class-passed -->
+          <div class="suite-PageObjectTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">registrationTests.RegistrationTestSuite</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestRegistration">
+                  </a> <!-- TestRegistration -->
+                  <span class="method-name">TestRegistration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestRegistrationValidators">
+                  </a> <!-- TestRegistrationValidators -->
+                  <span class="method-name">TestRegistrationValidators</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PageObjectTest-class-passed -->
+        </div> <!-- panel PageObjectTest -->
+        <div panel-name="test-xml-PageObjectTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Vasyl\IdeaProjects\AutomationDemo\src\test\resources\page-object-test.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;PageObjectTest&quot; data-provider-thread-count=&quot;2&quot;&gt;
+  &lt;parameter name=&quot;password&quot; value=&quot;Emisare1&quot;/&gt;
+  &lt;parameter name=&quot;browserName&quot; value=&quot;firefox&quot;/&gt;
+  &lt;parameter name=&quot;login&quot; value=&quot;kovalchukvasyl@yahoo.com&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;DemoTests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;loginTests.LoginTestSuite&quot;/&gt;
+      &lt;class name=&quot;homepageTests.HomePageTestSuite&quot;/&gt;
+      &lt;class name=&quot;mailboxTests.MailboxTestSuite&quot;/&gt;
+      &lt;class name=&quot;registrationTests.RegistrationTestSuite&quot;/&gt;
+      &lt;class name=&quot;homepageTests.DataProviderTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DemoTests --&gt;
+&lt;/suite&gt; &lt;!-- PageObjectTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-PageObjectTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for PageObjectTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">DemoTests (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-PageObjectTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for PageObjectTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-PageObjectTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for PageObjectTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_PageObjectTest');
+function tableData_PageObjectTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'MailCheckerTest')
+data.setCell(0, 2, 'mailboxTests.MailboxTestSuite')
+data.setCell(0, 3, 45345);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'CorrectLoginTest')
+data.setCell(1, 2, 'loginTests.LoginTestSuite')
+data.setCell(1, 3, 5339);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TestNameTextfield')
+data.setCell(2, 2, 'homepageTests.DataProviderTest')
+data.setCell(2, 3, 5046);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TestNameTextfield')
+data.setCell(3, 2, 'homepageTests.DataProviderTest')
+data.setCell(3, 3, 4662);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TestNameTextfield')
+data.setCell(4, 2, 'homepageTests.DataProviderTest')
+data.setCell(4, 3, 4607);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TestNameTextfield')
+data.setCell(5, 2, 'homepageTests.DataProviderTest')
+data.setCell(5, 3, 4334);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TestRegistration')
+data.setCell(6, 2, 'registrationTests.RegistrationTestSuite')
+data.setCell(6, 3, 2994);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TestRegistrationValidators')
+data.setCell(7, 2, 'registrationTests.RegistrationTestSuite')
+data.setCell(7, 3, 1475);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'UnexistingLoginTest')
+data.setCell(8, 2, 'loginTests.LoginTestSuite')
+data.setCell(8, 3, 1432);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TestLogoPresence')
+data.setCell(9, 2, 'homepageTests.HomePageTestSuite')
+data.setCell(9, 3, 244);
+window.suiteTableData['PageObjectTest']= { tableData: data, tableDiv: 'times-div-PageObjectTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-PageObjectTest">
+              </div> <!-- times-div-PageObjectTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-PageObjectTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for PageObjectTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-PageObjectTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-PageObjectTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">loginTests.LoginTestSuite</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CorrectLoginTest(kovalchukvasyl@yahoo.com)</span>
+                <span class="method-start">9320 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenShotOnFailure([TestResult name=CorrectLoginTest status=SUCCESS method=LoginTestSuite.CorrectLoginTest(java.lang.St...)</span>
+                <span class="method-start">14659 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">14661 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">UnexistingLoginTest</span>
+                <span class="method-start">17645 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenShotOnFailure([TestResult name=UnexistingLoginTest status=SUCCESS method=LoginTestSuite.UnexistingLoginTest()[pri:...)</span>
+                <span class="method-start">19077 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">homepageTests.HomePageTestSuite</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">19078 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestLogoPresence</span>
+                <span class="method-start">21746 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenShotOnFailure([TestResult name=TestLogoPresence status=SUCCESS method=HomePageTestSuite.TestLogoPresence()[pri:0, ...)</span>
+                <span class="method-start">21990 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mailboxTests.MailboxTestSuite</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">21991 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MailCheckerTest(kovalchukvasyl@yahoo.com, Emisare1)</span>
+                <span class="method-start">25309 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenShotOnFailure([TestResult name=MailCheckerTest status=SUCCESS method=MailboxTestSuite.MailCheckerTest(java.lang.St...)</span>
+                <span class="method-start">70654 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">registrationTests.RegistrationTestSuite</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">70654 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestRegistrationValidators</span>
+                <span class="method-start">74423 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenShotOnFailure([TestResult name=TestRegistrationValidators status=SUCCESS method=RegistrationTestSuite.TestRegistra...)</span>
+                <span class="method-start">75898 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">75898 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestRegistration</span>
+                <span class="method-start">77274 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenShotOnFailure([TestResult name=TestRegistration status=SUCCESS method=RegistrationTestSuite.TestRegistration()[pri...)</span>
+                <span class="method-start">80268 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">homepageTests.DataProviderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">80273 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestNameTextfield(A)</span>
+                <span class="method-start">119225 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenShotOnFailure([TestResult name=TestNameTextfield status=SUCCESS method=DataProviderTest.TestNameTextfield(java.lan...)</span>
+                <span class="method-start">123832 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">123833 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestNameTextfield(B)</span>
+                <span class="method-start">167602 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenShotOnFailure([TestResult name=TestNameTextfield status=SUCCESS method=DataProviderTest.TestNameTextfield(java.lan...)</span>
+                <span class="method-start">172264 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">172264 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestNameTextfield(C)</span>
+                <span class="method-start">175380 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenShotOnFailure([TestResult name=TestNameTextfield status=SUCCESS method=DataProviderTest.TestNameTextfield(java.lan...)</span>
+                <span class="method-start">179715 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">179715 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestNameTextfield(D)</span>
+                <span class="method-start">182640 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenShotOnFailure([TestResult name=TestNameTextfield status=SUCCESS method=DataProviderTest.TestNameTextfield(java.lan...)</span>
+                <span class="method-start">187687 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

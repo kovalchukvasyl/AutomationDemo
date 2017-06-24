@@ -43,6 +43,11 @@ public class HomePage extends Page {
 		mailboxLink.click();
 	}
 
+	public void goOnRegistrationPage() {
+		waitForElement(logo);
+		webDriver.get("https://login.yahoo.com/account/create");
+	}
+
 	public boolean isLogoDisplayed() {
 		return logo.isDisplayed();
 	}

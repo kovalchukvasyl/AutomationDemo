@@ -1,0 +1,6 @@
+homepageTests\HomePageTestSuite.class
+loginTests\LoginTestSuite.class
+mailboxTests\MailboxTestSuite.class
+basic\TestBase.class
+registrationTests\RegistrationTestSuite.class
+homepageTests\DataProviderTest.class
