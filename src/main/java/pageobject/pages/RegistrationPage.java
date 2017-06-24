@@ -41,6 +41,11 @@ public class RegistrationPage extends Page{
     @FindBy(how = How.XPATH, using = "//*[@name='sendCode']")
     private WebElement sendcodeButton;
 
+    @FindBy(how = How.XPATH, using = "//*[@class='oneid-error-message']")
+    private WebElement validatorError;
+
+
+
 
     public RegistrationPage(WebDriver webDriver) {
         super(webDriver);
@@ -58,6 +63,19 @@ public class RegistrationPage extends Page{
 
     public void goOnRegistrationPage() {
         webDriver.get("https://login.yahoo.com/account/create");
+    }
+
+    public boolean isValidatorAppear() {
+        return validatorError.isDisplayed();
+    }
+
+    public void wrongRegistrationProcedure() {
+        firstnameRegistration.sendKeys("Vasyl");
+        lastnameRegistration.sendKeys("Kovalchuk");
+        idRegistration.sendKeys(getRandomMailName());
+        passwordField.sendKeys("Emisare1996");
+        continueButton.click();
+
     }
 
     public void registrationProcedure() {

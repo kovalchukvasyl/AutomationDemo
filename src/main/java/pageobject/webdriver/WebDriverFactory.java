@@ -5,6 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.util.concurrent.TimeUnit;
@@ -16,6 +17,7 @@ public class WebDriverFactory {
 
 	private static final String CHROME = "chrome";
 	private static final String FIREFOX = "firefox";
+	private static final String IE = "ie";
 
 	private static WebDriver webDriver;
 	private static DesiredCapabilities dc;
@@ -50,15 +52,21 @@ public class WebDriverFactory {
 				
 			} else if (FIREFOX.equals(browser)) {
 				setFFDriver();
-				
+
 				FirefoxProfile fp = new FirefoxProfile();
 				dc = DesiredCapabilities.firefox();
 				//dc.setCapability("marionette", false);
 				dc.setCapability(FirefoxDriver.PROFILE, fp);
-				
+
 				webDriver = new FirefoxDriver(dc);
 
-			} else
+			} else if (IE.equals(browser)) {
+				setIEDriver();
+				webDriver = new InternetExplorerDriver();
+
+			}
+
+			else
 				throw new IllegalAccessException("Invalid browser set in XML-file");
 			
 			webDriver.manage().timeouts().implicitlyWait(45, TimeUnit.SECONDS);
@@ -126,4 +134,12 @@ public class WebDriverFactory {
 				firefoxBinary.toString());
 	}
 
+	private static void setIEDriver() {
+		StringBuffer ieBinary = new StringBuffer(
+				"src/main/resources/drivers/");
+		ieBinary.append("ie-driver/IEDriverServer.exe");
+
+		System.setProperty("webdriver.ie.driver",
+				ieBinary.toString());
+	}
 }

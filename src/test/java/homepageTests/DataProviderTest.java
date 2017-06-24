@@ -13,8 +13,8 @@ public class DataProviderTest extends TestBase {
 		Assert.assertEquals(homePage.checkPageLink(),true);
 	}
 
-	@DataProvider
-	public String[][] getUser() {
+	@DataProvider(parallel = false)
+	public Object[][] getUser() {
 		return new String[][]{{"A"},{"B"}, {"C"}, {"D"}};
 	}
 

@@ -34,6 +34,7 @@ public class HomePage extends Page {
 	}
 
 	public void moveOnLoginPage() {
+		waitForElement(loginButton);
 		loginButton.click();
 	}
 
