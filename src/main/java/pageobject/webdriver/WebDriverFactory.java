@@ -41,7 +41,7 @@ public class WebDriverFactory {
 				
 				ChromeOptions options = new ChromeOptions();
 				options.addArguments("test-type");
-//				options.addArguments("--disable-extensions");
+				// options.addArguments("--disable-extensions");
 				options.addArguments("start-maximized");
 
 				// set some options

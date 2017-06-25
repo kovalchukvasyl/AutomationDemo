@@ -10,7 +10,7 @@ public class MailboxTestSuite extends TestBase {
 
     @Parameters({ "login", "password" })
     @Test
-    public void MailCheckerTest(String login, String password) {
+    public void MailCheckerTest(String login, String password) throws InterruptedException {
         homePage.moveOnLoginPage();
         loginPage.performLogin(login, password);
         homePage.moveToMailbox();

@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class LoginTestSuite extends TestBase{
 
     @Test(dependsOnMethods = {"CorrectLoginTest"})
-    public void UnexistingLoginTest() {
+    public void UnexistingLoginTest() throws InterruptedException {
         homePage.moveOnLoginPage();
         loginPage.enterUsername(registrationPage.getRandomMailName());
         loginPage.clickNextButton();
@@ -17,7 +17,7 @@ public class LoginTestSuite extends TestBase{
 
     @Parameters({ "login" })
     @Test
-    public void CorrectLoginTest(String login) {
+    public void CorrectLoginTest(String login) throws InterruptedException {
         homePage.moveOnLoginPage();
         loginPage.enterUsername(login);
         loginPage.clickNextButton();

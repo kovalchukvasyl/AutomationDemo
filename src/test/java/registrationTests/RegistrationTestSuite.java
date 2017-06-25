@@ -27,10 +27,10 @@ public class RegistrationTestSuite extends TestBase implements IRetryAnalyzer{
         Assert.assertEquals(registrationPage.isValidatorAppear(), true);
     }
 
-//    @Test(priority = 2, retryAnalyzer = RegistrationTestSuite.class)
-//    public void TestRegistration() throws InterruptedException {
- //       homePage.goOnRegistrationPage();
- //       registrationPage.registrationProcedure();
- //   }
+    @Test(priority = 2, retryAnalyzer = RegistrationTestSuite.class)
+    public void TestRegistration() throws InterruptedException {
+        homePage.goOnRegistrationPage();
+        registrationPage.registrationProcedure();
+    }
 
 }

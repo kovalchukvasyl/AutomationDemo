@@ -4,7 +4,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import pageobject.pages.abstractpage.Page;
+
+import static java.lang.Thread.sleep;
 
 public class LoginPage extends Page {
 
@@ -38,11 +42,12 @@ public class LoginPage extends Page {
         usernameTextfield.sendKeys(username);
     }
 
-    public void clickNextButton() {
+    public void clickNextButton() throws InterruptedException {
         goToPasswordButton.click();
+        sleep(2000);
     }
 
-    public void enterPassword(String password) {
+    public void enterPassword(String password)  {
         passwordTextfield.clear();
         passwordTextfield.sendKeys(password);
     }
@@ -51,7 +56,7 @@ public class LoginPage extends Page {
        return isElementPresent(greetingText);
     }
 
-    public void performLogin(String username, String password) {
+    public void performLogin(String username, String password) throws InterruptedException {
         enterUsername(username);
         clickNextButton();
         waitForElement(passwordTextfield);
@@ -59,8 +64,12 @@ public class LoginPage extends Page {
         verifyPasswordButton.click();
     }
 
-    public boolean isLoginWrong() {
-        waitForClickable(goToPasswordButton);
+    public boolean isLoginWrong()  {
         return wrongUsernameMessage.isDisplayed();
+    }
+
+    public void waitForElementPresent() throws InterruptedException {
+        WebDriverWait wait = new WebDriverWait(webDriver, 3);
+        WebElement webElement = wait.until(ExpectedConditions.visibilityOf(wrongUsernameMessage));
     }
 }
