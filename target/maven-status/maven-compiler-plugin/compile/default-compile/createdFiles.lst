@@ -1,6 +1,0 @@
-pageobject\pages\abstractpage\Page.class
-pageobject\pages\RegistrationPage.class
-pageobject\pages\LoginPage.class
-pageobject\pages\HomePage.class
-pageobject\webdriver\WebDriverFactory.class
-pageobject\pages\MailboxPage.class
