@@ -49,5 +49,10 @@ public abstract class Page {
 		WebDriverWait wait = new WebDriverWait(webDriver, 10);
 		WebElement webElement = wait.until(ExpectedConditions.visibilityOf(element));
 	}
+
+	public void waitForClickable(WebElement element) {
+		WebDriverWait wait = new WebDriverWait(webDriver, 10);
+		WebElement webElement = wait.until(ExpectedConditions.elementToBeClickable(element));
+	}
 	
 }

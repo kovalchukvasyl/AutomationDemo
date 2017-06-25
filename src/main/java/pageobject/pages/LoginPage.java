@@ -60,7 +60,7 @@ public class LoginPage extends Page {
     }
 
     public boolean isLoginWrong() {
-        waitForElement(goToPasswordButton);
+        waitForClickable(goToPasswordButton);
         return wrongUsernameMessage.isDisplayed();
     }
 }
